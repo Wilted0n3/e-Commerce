@@ -294,4 +294,12 @@ FEATURED
   margin: 0 auto;
 } */
 
+#explore {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  background-color: khaki;
+  text-align: center;
+  padding-bottom: 8px;
+}
 
