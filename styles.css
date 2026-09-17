@@ -216,7 +216,7 @@ HIGHLIGHTS
 }
 
 /* 
-FEATURES
+FEATURED
 */
 
 #featured {
@@ -285,3 +285,12 @@ FEATURES
   padding-top: 16px;
   background-color: white;
 }
+
+#recent .books {
+  width: 100%;
+  max-width: 1200px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+
