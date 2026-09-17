@@ -226,6 +226,7 @@ FEATURED
 
 .books {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .book {
@@ -286,11 +287,11 @@ FEATURED
   background-color: white;
 }
 
-#recent .books {
+/* #recent .books {
   width: 100%;
   max-width: 1200px;
   flex-wrap: wrap;
   margin: 0 auto;
-}
+} */
 
 
