@@ -219,6 +219,64 @@ HIGHLIGHTS
 FEATURES
 */
 
-#features {
+#featured {
+  padding-top: 12vw;
   background-color: khaki;
+}
+
+.books {
+  display: flex;
+}
+
+.book {
+  width: 25%;
+  padding: 24px;
+  text-align: center;
+  align-items: center;
+}
+
+.book__img {
+  max-height: 380px;
+  transition: all 300ms ease;
+  cursor: not-allowed;
+}
+
+.book__img--wrapper {
+  display: flex;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.book:hover .book__img {
+  transform: scale(1.03);
+}
+
+.book__title {
+  font-size: 24px;
+  font-weight: 700;
+  padding-bottom: 8px;
+}
+
+.book__title:hover {
+  text-decoration: underline;
+  cursor: not-allowed;
+}
+
+.book__ratings {
+  margin-bottom: 8px;
+  color: rgb(252, 94, 3);
+}
+
+.book__price--normal {
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: line-through;
+  padding-right: 8px;
+  color: gray;
+}
+
+.book__price {
+  font-size: 20px;
+  font-weight: 700;
 }
